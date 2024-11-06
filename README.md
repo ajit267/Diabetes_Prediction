@@ -28,7 +28,7 @@ The target variable is:
    ```bash
    git clone https://github.com/ajit267/Diabetes_Prediction.git
 
-Features
+## Features
 Data Preprocessing: Handling missing values, scaling, and normalizing the dataset.
 Model Training: Various machine learning models are tested, including Logistic Regression, K-Nearest Neighbors, Decision Trees, and others.
 Evaluation: The model is evaluated on accuracy, precision, recall, and F1 score.
@@ -42,15 +42,14 @@ Decision Tree
 Random Forest
 Each model's performance is evaluated, and the best-performing model is selected for predictions.
 
-Prerequisites
+## Prerequisites
 Python 3.12 or later
 pip and pipenv for package management
 Docker (optional, for containerization)
 Setup
 Clone the repository or download the project files.
 
-Navigate to the project directory:
-
+## Navigate to the project directory:
 Insert Code
 Edit
 Copy code
@@ -67,7 +66,8 @@ Insert Code
 Edit
 Copy code
 pipenv shell
-Project Structure
+
+## Project Structure
 diabetes_prediction.py: Script to train the model and save it
 diabetes_predict.py: Flask application for serving predictions
 predict.py: Client script to test the prediction service
@@ -104,7 +104,7 @@ Copy code
 python predict.py
 This script sends a sample patient data to the prediction service and prints the result.
 
-Using Docker (Optional)
+## Using Docker (Optional)
 Build the Docker image:
 
 Insert Code
@@ -136,14 +136,14 @@ Copy code
 }
 The service will respond with a prediction indicating whether the patient is likely to have diabetes or not.
 
-Results
+## Results
 The models were evaluated on various metrics, with accuracy, precision, recall, and F1 score calculated for each model. The final model selection is based on the one with the best overall performance.
 
-Contributing
+## Contributing
 Contributions are welcome! Please fork the repository, create a feature branch, and submit a pull request. Make sure to include relevant tests for any new functionality.
 
-License
+## License
 Distributed under the MIT License. See LICENSE for more information.
 
-Contact
+## Contact
 Project Link: Diabetes Prediction on GitHub
