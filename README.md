@@ -1,3 +1,6 @@
+## Look for Deployed project at
+https://diabetespredictml.streamlit.app/
+
 # Diabetes Prediction
 
 This project is a machine learning model that predicts the likelihood of diabetes based on certain health metrics. The model is trained using a dataset containing features like blood pressure, BMI, and glucose levels, and aims to help in early detection of diabetes, allowing for timely intervention.
