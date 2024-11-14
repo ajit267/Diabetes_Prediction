@@ -1,11 +1,11 @@
-import numpy as np # type: ignore
-import pandas as pd # type: ignore
-import matplotlib.pyplot as plt # type: ignore
+import numpy as np 
+import pandas as pd 
+import matplotlib.pyplot as plt
 import warnings
 warnings.filterwarnings("ignore")
-from sklearn.model_selection import train_test_split # type: ignore
-from sklearn.preprocessing import StandardScaler, scale # type: ignore
-from sklearn.ensemble import RandomForestClassifier # type: ignore
+from sklearn.model_selection import train_test_split 
+from sklearn.preprocessing import StandardScaler, scale 
+from sklearn.ensemble import RandomForestClassifier 
 
 # Data Preparation
 df = pd.read_csv('diabetes.csv')
